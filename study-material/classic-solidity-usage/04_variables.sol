@@ -25,5 +25,9 @@ contract Varibles {
         // Here are some global variables
         uint256 timestamp = block.timestamp; // Current block timestamp
         address sender = msg.sender; // address of the caller
+
+        if ((i == 456) &&(timestamp == 1) &&(sender == address(0))) {
+
+        }
     }
 }
